@@ -53,4 +53,4 @@ def prediction():
             return render_template('home.html', results="An error occurred during prediction. Please try again.")
 
 if __name__ == "__main__":
-    app.run(host="0.0.0.0", debug=True)
+    app.run(host="0.0.0.0")
